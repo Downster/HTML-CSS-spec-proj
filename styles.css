@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.title-left {
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+}
+
+.title-right{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+}
+
+.navbar-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.h1-container{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    width: 80%;
+
+}
+
+.author-sm-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.author {
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+
+
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 20%;
+    padding-top: 10px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+  }
+
+  .paragraph-container {
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
+
+  h3 {
+      display: flex;
+      margin-left: 25%;
+
+  }
+
+  p {
+      width: 700px;
+      margin: 0 auto;
+      padding-bottom: 20px;
+  }
+
+  .links-container {
+    border: 2px solid black;
+    width: 700px;
+    margin: 0 auto;
+
+  }
+
+  .links {
+      display: flex;
+      justify-content: space-evenly;
+
+  }
+
+ .links-titles {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .left-links {
+     display: flex;
+     justify-content: left;
+ }
+
+ .right-links {
+     display: flex;
+    flex-direction: column;
+     justify-content: left;
+ }
+
+ .bottom-bar {
+     padding-top: 20px;
+     display: flex;
+     justify-content: space-around;
+ }
